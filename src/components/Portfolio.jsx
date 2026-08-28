@@ -24,7 +24,7 @@ export default function Portfolio() {
       <header className="portfolio-header">
         <div className="header-left">
           <img 
-            src="/abuzar.jpg" 
+            src="/public/abuzar.jpg" 
             alt="Abuzar Shaikh" 
             className="profile-img" 
             onError={(e) => { e.target.style.display = 'none'; }} // Fallback if image path is pending
