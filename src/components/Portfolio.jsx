@@ -31,7 +31,8 @@ export default function Portfolio() {
           />
           <div>
             <h1>Abuzar Shaikh</h1>
-            <p>AI & ML Engineering Student @LTCE | Seeking AI/ML & SDE Internships | Ex-AI Automation Intern @ IBM SkillsBuild</p>
+            <p>AI & ML Engineering Student @LTCE | Seeking AI/ML & SDE Internships</p> 
+            <p>Ex-AI Automation Intern @ IBM SkillsBuild</p>
           </div>
         </div>
         <button onClick={() => setDarkMode(!darkMode)} className="theme-toggle">
