@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Portfolio() {
-  // 1. useState for navigation tabs and dark mode theme toggle
+  // useState for navigation tabs and dark mode theme toggle
   const [activeTab, setActiveTab] = useState('about');
   const [darkMode, setDarkMode] = useState(false);
 
-  // 2. useEffect to update the browser document title dynamically
+  // useEffect to update the browser document title dynamically
   useEffect(() => {
     document.title = `Abuzar Shaikh | ${activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}`;
   }, [activeTab]);
 
-  // 3. useEffect to handle dark mode class injection into body
+  // useEffect to handle dark mode class injection into body
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark-mode');
@@ -24,7 +24,7 @@ export default function Portfolio() {
       <header className="portfolio-header">
         <div className="header-left">
           <img 
-            src="./public/abuzar.jpg" 
+            src="./abuzar.jpg" 
             alt="Abuzar Shaikh" 
             className="profile-img" 
             onError={(e) => { e.target.style.display = 'none'; }} // Fallback if image path is pending
