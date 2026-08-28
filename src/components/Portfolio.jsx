@@ -67,7 +67,7 @@ export default function Portfolio() {
           <section className="tab-section">
             <h2>About Me</h2>
             <p>
-              I am a B.Tech student in AI & ML at Lokmanya Tilak College of Engineering, passionate about building scalable, intelligent systems and solving complex computational challenges. My work bridges artificial intelligence, software engineering, and core computer science fundamentals—turning theoretical concepts into intuitive, production-ready software.
+              I am a B.Tech student in AI & ML at Lokmanya Tilak College of Engineering, passionate about building scalable, intelligent systems and solving complex computational challenges. My work bridges artificial intelligence, software engineering, and core computer science fundamentals-turning theoretical concepts into intuitive, production-ready software.
             </p>
             <p>
               Recently, I completed an intensive <strong>AI Automation & Intelligent Solutions Internship with IBM SkillsBuild</strong> (conducted with AICTE and BharatCares), where I engineered end-to-end automation workflows, system architectures, and hands-on machine learning pipelines.
@@ -107,7 +107,7 @@ export default function Portfolio() {
               <div className="project-card">
                 <h3>CPU Scheduler Simulator (Mini Project-I SEM IV)</h3>
                 <p>
-                  A system utility that bridges OS theory and live kernel data—monitoring active processes and simulating CPU scheduling efficiency in real-time.
+                  A system utility that bridges OS theory and live kernel data-monitoring active processes and simulating CPU scheduling efficiency in real-time.
                 </p>
                 <p><strong>My Role:</strong> UI/UX & Frontend Engineer - designed and built the responsive Glassmorphic dashboard interface.</p>
                 <a href="https://github.com/tracbyte/cpu-scheduler" target="_blank" rel="noopener noreferrer" className="email-link">View Repository</a>
