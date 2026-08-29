@@ -1,62 +1,75 @@
-# Developer Portfolio
+# 🚀 Customisable Developer Portfolio Template
 
-A sleek, responsive, and high-performance personal portfolio website built to showcase my professional background, technical skills, projects, and achievements.
+A sleek, responsive, and high-performance developer portfolio template built with **Vite** and a component-driven structure. Designed for developers who want a modern personal website that is easy to customise, deploy, and maintain.
 
-## 🚀 Features
+## 🌟 Features
 
-- **Modern Architecture:** Fast builds and hot module replacement powered by Vite.
-- **Component-Driven Design:** Built using a modular and maintainable directory structure inside `src`.
-- **CI/CD Integrated:** Automated build and deployment pipelines configured via GitHub Actions.
-- **Responsive Web Design:** Fully optimized for smooth browsing across mobile, tablet, and desktop devices.
+- **Blazing Fast:** Powered by Vite for near-instant hot module replacement (HMR) and optimized builds.
+- **Easy Customisation:** Centralised content structure to quickly swap in your own details, projects, and social links.
+- **CI/CD Ready:** Pre-configured GitHub Actions workflow for automated deployments.
+- **Fully Responsive:** Looks sharp on mobile, tablet, and desktop screens.
 
-## 📂 Project Structure
+## 🛠️ Tech Stack
 
-```text
-├── .github/workflows/   # CI/CD deployment configuration pipelines
-├── public/              # Static assets (images, icons, resumes, favicon)
-├── src/                 # Application source code (components, styles, pages)
-├── index.html           # Main HTML entry point
-├── package.json         # Node.js dependencies and project scripts
-└── vite.config.js       # Vite bundler configuration configurations
+- **Bundler:** Vite
+- **Core:** React / Vue (configured via `src/`)
+- **Deployment:** GitHub Actions
+
+---
+
+## 💻 Getting Started (Local Setup)
+
+Follow these steps to get a local copy of this portfolio running on your machine:
+
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org) installed (v18.0.0 or higher recommended).
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com
+cd portfolio
 ```
 
-## 🛠️ Prerequisites
+### 3. Install Dependencies
+```bash
+npm install
+# or if you use yarn: yarn install
+```
 
-Make sure you have the following installed on your machine:
-- Node.js (v18.0.0 or higher recommended)
-- npm or yarn package manager
+### 4. Run the Development Server
+```bash
+npm run dev
+```
+Open your browser and navigate to `http://localhost:5173` to see the site running locally.
 
-## 💻 Installation & Local Development
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd portfolio
-   ```
+## ✍️ How to Customise with Your Details
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or if you use yarn: yarn install
-   ```
+To make this portfolio yours, follow these quick adjustment steps:
 
-3. **Start the local development server:**
-   ```bash
-   npm run dev
-   # or: yarn dev
-   ```
+1. **Update Personal Information:** Open the `src/` directory. Modify the profile components or data files to update your name, bio, skills, and work experience.
+2. **Swap Assets:** Replace the placeholder images, icons, and your resume PDF inside the `public/` directory. Make sure to keep the file names identical or update the paths in your code.
+3. **Configure Metadata:** Update the website title, description, and favicon inside `index.html` for better SEO.
 
-4. **View your site:**
-   Open your browser and navigate to the address shown in your terminal (usually `http://localhost:5173`).
+---
 
-## 🛠️ Scripts
+## 🚀 How to Build and Deploy
 
-In the project directory, you can run:
+### Production Build
+When you are ready to ship your website, generate an optimized production build:
+```bash
+npm run build
+```
+This creates a `dist/` folder containing the static HTML, CSS, and JS files ready for hosting.
 
-- `npm run dev`: Starts the development server with live-reloading.
-- `npm run build`: Compiles and optimizes the application for production into a `dist/` folder.
-- `npm run preview`: Locally previews the production build.
+### Automated Deployment (GitHub Actions)
+This repository includes an automated pipeline under `.github/workflows/`. To automatically deploy your portfolio to **GitHub Pages**:
+1. Go to your repository settings on GitHub.
+2. Navigate to **Pages** -> **Build and deployment**.
+3. Under *Source*, select **GitHub Actions**.
+4. Push your changes to the `main` branch, and the workflow will handle the rest!
 
-## 🚀 Deployment
+## 📄 License
 
-This project includes automated workflows. Any push or pull request to the `main` branch triggers the GitHub Actions pipeline located in `.github/workflows/` to automatically build and deploy the updated application (e.g., to GitHub Pages, Vercel, or Netlify).
+This project is open-source and available under the [MIT License](LICENSE). Feel free to fork it, use it, and modify it to showcase your unique developer journey!
