@@ -102,7 +102,7 @@ export default function Portfolio() {
                   An intelligent AI-driven platform designed for automated knowledge workflows and interactive learning solutions.
                 </p>
                 <p><strong>My Role:</strong> UI/UX & Flask Developer - designed the user interface and built backend web services using Flask.</p>
-                <a href="https://github.com/tracbyte/gyanmitra" target="_blank" rel="noopener noreferrer" className="email-link">View Repository</a>
+                <a href="https://github.com/abuzar-shaikh-dev/gyanmitra" target="_blank" rel="noopener noreferrer" className="email-link">View Repository</a>
               </div>
               <div className="project-card">
                 <h3>CPU Scheduler Simulator (Mini Project-I SEM IV)</h3>
@@ -110,7 +110,7 @@ export default function Portfolio() {
                   A system utility that bridges OS theory and live kernel data-monitoring active processes and simulating CPU scheduling efficiency in real-time.
                 </p>
                 <p><strong>My Role:</strong> UI/UX & Frontend Engineer - designed and built the responsive Glassmorphic dashboard interface.</p>
-                <a href="https://github.com/tracbyte/cpu-scheduler" target="_blank" rel="noopener noreferrer" className="email-link">View Repository</a>
+                <a href="https://github.com/abuzar-shaikh-dev/cpu-scheduler" target="_blank" rel="noopener noreferrer" className="email-link">View Repository</a>
               </div>
             </div>
           </section>
@@ -123,10 +123,11 @@ export default function Portfolio() {
             <p>
               📧 Email:{' '}
               <a href="mailto:abuzar_07@yahoo.com" className="email-link">abuzar_07@yahoo.com</a>
+              <a href="mailto:abuzar.ltce@gmail.com" className="email-link">abuzar.ltce@gmail.com</a>
             </p>
             <p>
               💼 LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/abuzar-a-shaikh/" target="_blank" rel="noopener noreferrer" className="email-link">
+              <a href="https://www.linkedin.com/in/abuzar-shaikh-dev/" target="_blank" rel="noopener noreferrer" className="email-link">
                 abuzar-a-shaikh
               </a>
             </p>
