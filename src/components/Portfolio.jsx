@@ -123,12 +123,15 @@ export default function Portfolio() {
             <p>
               📧 Email:{' '}
               <a href="mailto:abuzar_07@yahoo.com" className="email-link">abuzar_07@yahoo.com</a>
+            </p>
+            <p>
+              📧 Email:{' '}
               <a href="mailto:abuzar.ltce@gmail.com" className="email-link">abuzar.ltce@gmail.com</a>
             </p>
             <p>
               💼 LinkedIn:{' '}
               <a href="https://www.linkedin.com/in/abuzar-shaikh-dev/" target="_blank" rel="noopener noreferrer" className="email-link">
-                abuzar-a-shaikh
+                abuzar-shaikh-dev
               </a>
             </p>
           </section>
